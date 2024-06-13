@@ -18,7 +18,7 @@ jobs:
   task-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: venkatsarvesh/pr-tasks-completed-action@v1.0.0
+      - uses: venkatsarvesh/pr-tasks-completed-action@v2.0.0
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
 ```
